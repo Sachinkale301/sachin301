@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <title>- Portfolio</title>
+<link
+  href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap"
+  rel="stylesheet"
+/>
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link
+  href="https://fonts.googleapis.com/css2?family=Edu+AU+VIC+WA+NT+Dots:wght@400..700&display=swap"
+  rel="stylesheet"
+/>
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link
+  href="https://fonts.googleapis.com/css2?family=Satisfy&display=swap"
+  rel="stylesheet"
+/>
+<link rel="stylesheet" href="style.css" />
+</head>
+<body>
+    <div id="container">
+        <nav>
+            <a id="home" onclick="changeColor(this)" href="#">Home</a>
+            <a onclick="changeColor(this)" href="#about">About</a>
+            <a onclick="changeColor(this)" href="#projects">Projects</a>
+            <a onclick="changeColor(this)" href="#experience">Experience</a>
+            <a href="https://google.com">Google</a>
+          </nav>
+          <section id="hero">
+            <img src="data:image/jpeg;base64,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">
+            <h1>Sachin kale </h1>
+            <!-- <h2>Full-Stack Developer</h2> -->
+            <div class="cta-buttons">
+              <button>Get in Touch</button>
+              <button>Download CV</button>
+              <button>Linkedin</button>
+              <button>Github</button>
+            </div>
+          </section>
+          <section id="about">
+            <h2>ABOUT ME</h2>
+            <p>
+              Hi, I'm sachin  a full-stack developer based in India. I specialize in
+              creating interactive, responsive websites and web applications. I'm
+              passionate about exploring and learning the latest in web development and
+              cloud technologies. My expertise lies in full-stack web development, with a
+              core stack of React, Next.js, Node.js, and MongoDB. I've recently expanded
+              my skills to include cloud platforms (AWS, GCP, Azure) and containerization
+              with Docker.
+            </p>
+          </section>
+          <section id="skills">
+            <h2>Skills</h2>
+            <div>
+              <span>Nodejs</span>
+              <span>HTML</span>
+              <span>CSS</span>
+              <span>JAVASCRIPT</span>
+            </div>
+          </section>
+          <section id="projects">
+            <div id="project-title">
+              <h2>PROJECTS</h2>
+              <img
+                width="100px"
+                src="https://media.tenor.com/QhRvvwpCdVoAAAAi/rocket.gif"
+                alt="Logo"
+              />
+            </div>
+          
+            <div class="project-flex">
+              <div class="project-card">
+                <img src="./assests/project-thumbnail-1.png" alt="HTML Tutorial" />
+                <div class="project-info">
+                  <h3>POWER OF HTML</h3>
+                  <p>HTML TUTORIAL</p>
+                </div>
+              </div>
+              <div class="project-card">
+                <img src="./assests/project-thumbnail-2.png" alt="CSS Tutorial" />
+                <div class="project-info">
+                  <h3>UNLOCK CSS MAGIC</h3>
+                  <p>CSS TUTORIAL</p>
+                </div>
+              </div>
+            </div>
+          </section>
+          <section id="experience">
+            <h2>EXPERIENCE</h2>
+            <div class="experience-item">
+              <div>
+                <h3>
+                  <img src="./assests/search.png" alt="Google Logo" /> Senior Software
+                  Engineer
+                </h3>
+                <p>
+                  As a Senior Software Engineer at Google, I played a pivotal role in
+                  developing innovative solutions for Google's core search algorithms.
+                  Collaborating with a dynamic team of engineers, I contributed to the
+                  enhancement of search accuracy and efficiency, optimizing user
+                  experiences for millions of users worldwide.
+                </p>
+                <p>June 2024 - Sept 2024</p>
+              </div>
+            </div>
+          </section>
+          
+    </div>
+    <script
+    src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"
+    integrity="sha512-7eHRwcbYkK4d9g/6tD/mhkf++eoTHwpNM9woBxtPUBWm67zeAfFC+HrdoE2GanKeocly/VxeLvIqwvCdk7qScg=="
+    crossorigin="anonymous"
+    referrerpolicy="no-referrer"
+  ></script>
+  <script
+    src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"
+    integrity="sha512-onMTRKJBKz8M1TnqqDuGBlowlH0ohFzMXYRNebz+yOcc5TQr/zAKsthzhuv0hiyUKEiQEQXEynnXCvNTOk50dg=="
+    crossorigin="anonymous"
+    referrerpolicy="no-referrer"
+  ></script>
+  <script src="script.js" defer></script>
+</body>
+</html>
